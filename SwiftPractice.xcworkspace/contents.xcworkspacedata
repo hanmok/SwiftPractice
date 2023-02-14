@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Dependency-Injection/Dependency-Injection.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CleanCode/CleanCode.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoLayout/AutoLayout.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:EscapingClosure/EscapingClosure.xcodeproj">
    </FileRef>
    <FileRef
