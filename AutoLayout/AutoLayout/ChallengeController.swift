@@ -129,7 +129,7 @@ class ChallengeController: UIViewController {
 
 //import UIKit
 
-func makeLabel(withText text: String) -> UILabel {
+private func makeLabel(withText text: String) -> UILabel {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = text
@@ -139,7 +139,7 @@ func makeLabel(withText text: String) -> UILabel {
     return label
 }
 
-func makeSubLabel(withText text: String) -> UILabel {
+private func makeSubLabel(withText text: String) -> UILabel {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = text
@@ -150,7 +150,7 @@ func makeSubLabel(withText text: String) -> UILabel {
     return label
 }
 
-func makeBoldLabel(withText text: String) -> UILabel {
+private func makeBoldLabel(withText text: String) -> UILabel {
     let label = UILabel()
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = text
@@ -160,7 +160,7 @@ func makeBoldLabel(withText text: String) -> UILabel {
     return label
 }
 
-func makeSwitch(isOn: Bool) -> UISwitch {
+private func makeSwitch(isOn: Bool) -> UISwitch {
     let theSwitch = UISwitch()
     theSwitch.translatesAutoresizingMaskIntoConstraints = false
     theSwitch.isOn = isOn
@@ -168,7 +168,7 @@ func makeSwitch(isOn: Bool) -> UISwitch {
     return theSwitch
 }
 
-func makeProgressView() -> UIProgressView {
+private func makeProgressView() -> UIProgressView {
     let progressView = UIProgressView(progressViewStyle: .default)
     progressView.translatesAutoresizingMaskIntoConstraints = false
 //    progressView.tintColor = .gray
@@ -177,7 +177,7 @@ func makeProgressView() -> UIProgressView {
     return progressView
 }
 
-func makeStackView(withOrientation axis: NSLayoutConstraint.Axis) -> UIStackView {
+private func makeStackView(withOrientation axis: NSLayoutConstraint.Axis) -> UIStackView {
     let stackView = UIStackView()
     stackView.translatesAutoresizingMaskIntoConstraints = false
     stackView.axis = axis

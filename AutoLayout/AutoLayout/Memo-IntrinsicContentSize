@@ -1,0 +1,78 @@
+
+Content Hugging
+Compression Resistance
+
+Intrinsic Content Size
+: Optional constraints defining a views natural size
+How big a view naturally wants to be ?
+
+
+iOS Components with intrinsic size ( All these views can size themselves except UIView)
+
+UISwitch:
+49, 31
+
+UIActivityIndicator:
+Small: (20, 20), Big: (37, 37)
+
+UIButton:
+The size of the buttons label + some padding
+
+UIImageView:
+The size of the image
+(No intrinsize size if image not set)
+
+UILabel:
+The size that fits its text
+Labels width not constrained
+
+UIView:
+Has no intrinsic content size
+
+
+
+Content Hugging Compression Resistance (CHCR)
+: Gives our controls the ability to flex.
+
+
+
+
+Content Hugging:
+I'm not gonna let you grow!
+
+Content Compression Resistance:
+I'm not gonna let you shrink
+
+struct UILayoutPriority
+.required: 1000 (Required)
+.defaultHigh: 750
+.defaultLow: 250
+
+view.setContentHiggingPriority(.defaultHigh, for: .horizontal)
+
+
+By default iOS controls are set to stretch
+
+Content Hugging
+: .defaultLow(250)
+I can stretch
+
+Compression Resistance
+: .defaultHigh(750)
+but dislike being compressed
+
+
+UIView
+UILayoutPriority: 1000
+
+
+By hugging myself a bit less
+I make myself more stretchable
+
+
+
+
+IntrinsicContentSize constraints are optional
+We adjust them through CHCR
+They can be overriden with anchors
+
