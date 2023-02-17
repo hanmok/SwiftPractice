@@ -35,7 +35,7 @@ class ContentHuggingAndCompression: UIViewController {
         
     }
     
-    func makeLabel(withText text: String) -> UILabel {
+    private func makeLabel(withText text: String) -> UILabel {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = text
@@ -43,7 +43,7 @@ class ContentHuggingAndCompression: UIViewController {
         return label
     }
     
-    func makeTextField(withPlaceHolderText text: String) -> UITextField {
+    private func makeTextField(withPlaceHolderText text: String) -> UITextField {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.placeholder = text

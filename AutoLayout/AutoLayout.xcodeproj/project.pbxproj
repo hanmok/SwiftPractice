@@ -20,6 +20,8 @@
 		9AC2B918299E6F3600173596 /* Memo-IntrinsicContentSize in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2B917299E6F3600173596 /* Memo-IntrinsicContentSize */; };
 		9AC2B91A299E749500173596 /* BasicIntrinsicContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2B919299E749500173596 /* BasicIntrinsicContentController.swift */; };
 		9AC2B91C299E763D00173596 /* ContentHuggingAndCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2B91B299E763D00173596 /* ContentHuggingAndCompression.swift */; };
+		9AC2B91E299FC21300173596 /* IntrinsicImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2B91D299FC21300173596 /* IntrinsicImageController.swift */; };
+		9AC2B922299FC9AF00173596 /* IntrinsicChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2B921299FC9AF00173596 /* IntrinsicChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		9AC2B917299E6F3600173596 /* Memo-IntrinsicContentSize */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Memo-IntrinsicContentSize"; sourceTree = "<group>"; };
 		9AC2B919299E749500173596 /* BasicIntrinsicContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicIntrinsicContentController.swift; sourceTree = "<group>"; };
 		9AC2B91B299E763D00173596 /* ContentHuggingAndCompression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHuggingAndCompression.swift; sourceTree = "<group>"; };
+		9AC2B91D299FC21300173596 /* IntrinsicImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicImageController.swift; sourceTree = "<group>"; };
+		9AC2B921299FC9AF00173596 /* IntrinsicChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrinsicChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				9AC2B919299E749500173596 /* BasicIntrinsicContentController.swift */,
 				9AC2B91B299E763D00173596 /* ContentHuggingAndCompression.swift */,
+				9AC2B91D299FC21300173596 /* IntrinsicImageController.swift */,
+				9AC2B921299FC9AF00173596 /* IntrinsicChallenge.swift */,
 			);
 			name = IntrinsicContentSize;
 			sourceTree = "<group>";
@@ -180,11 +186,13 @@
 				9AC2B88529928FF400173596 /* ViewController.swift in Sources */,
 				9AC2B912299D396200173596 /* ReadableContentController.swift in Sources */,
 				9AC2B88129928FF400173596 /* AppDelegate.swift in Sources */,
+				9AC2B922299FC9AF00173596 /* IntrinsicChallenge.swift in Sources */,
 				9AC2B91A299E749500173596 /* BasicIntrinsicContentController.swift in Sources */,
 				9AC2B91C299E763D00173596 /* ContentHuggingAndCompression.swift in Sources */,
 				9AC2B88329928FF400173596 /* SceneDelegate.swift in Sources */,
 				9AC2B910299D25F200173596 /* MarginGuideController.swift in Sources */,
 				9AC2B90E299D204D00173596 /* SafeAreaLabController.swift in Sources */,
+				9AC2B91E299FC21300173596 /* IntrinsicImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
